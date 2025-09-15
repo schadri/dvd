@@ -44,7 +44,7 @@ function changeDirection(index, value) {
 function getLogoURL() {
     // return the default logo if the parameter is not set
     if (!params.has("logo")) {
-        return "/logos/default.svg"
+        return "https://acdn-us.mitiendanube.com/stores/001/545/646/themes/common/logo-1889009766-1734723859-e3f3084b1bf6ec3716d11bf6ac46ce991734723860-640-0.webp"
     }
     
     return params.get("logo");
